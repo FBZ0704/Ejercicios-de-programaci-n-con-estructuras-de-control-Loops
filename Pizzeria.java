@@ -66,15 +66,15 @@ public class Pizzeria {
         switch (tamañoPizza) {
           case 1:
             costoTotal = (costoFijo + costoVariablepq + (costoIngExtrapq * cantIngredientes)) * 1.5;
-            System.out.println(" Tu Pizza Sencilla Pequeña Cuesta: " + costoTotal);
+            System.out.println(" Tu Pizza Pequeña Cuesta: " + costoTotal);
             break;
           case 2:
             costoTotal = (costoFijo + (costoVariablepq * 1.4) + (costoIngExtramd * cantIngredientes)) * 1.5;
-            System.out.println(" Tu Pizza Sencilla Mediana Cuesta: " + costoTotal);
+            System.out.println(" Tu Pizza Mediana Cuesta: " + costoTotal);
             break;
           case 3:
             costoTotal = (costoFijo + (costoVariablepq * 1.8) + (costoIngExtragd * cantIngredientes)) * 1.5;
-            System.out.println(" Tu Pizza Sencilla Grande Cuesta: " + costoTotal);
+            System.out.println(" Tu Pizza Grande Cuesta: " + costoTotal);
             break;
         }
       }
